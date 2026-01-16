@@ -22,14 +22,15 @@ body {
 
 h1{
     font-family: "Roboto Slab", serif;
-    font-size: 30pt;
+    font-size: 35pt;
     padding-top: 5vh;
 }
 
 h2, h3 {
     font-family: "Roboto Slab", serif;
-    font-size: 26pt;
+    font-size: 30pt;
     padding-top: 30px;
+    color: #215E61;
   
 
 }
@@ -38,7 +39,8 @@ h2, h3 {
 .logo {
     display: flex;
     justify-content: flex-start;
-    padding-top: 8px;
+    padding-top: 6px;
+    padding-right: 16rem;
 }
 
 .img1 {
@@ -124,6 +126,12 @@ h2, h3 {
     grid-area: 2 / 2 / 3 / 2 ;
 }
 
+ .img-sizing {
+    max-width: 240px;
+    height: auto;
+  }
+
+
 
 .flexy {
     display: flex;
@@ -143,7 +151,7 @@ h2, h3 {
 }
 
 .fa-instagram, .fa-linkedin-in, .fa-facebook-f {
-    font-size: 20pt;
+    font-size: 30pt;
     color: #215E61;
 }
 .footer-text{
@@ -171,7 +179,7 @@ h2, h3 {
 .nav {
     background-color: lightgrey;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     font-size: 14pt;
     gap: 40px;
     padding: 15px 30px;
@@ -187,12 +195,26 @@ h2, h3 {
     background-color: goldenrod;
 }
 
+.spacer {
+    display: flex;
+    justify-content: center;
+    padding-right: 70px;
+    margin-right: 10;
+    gap: 25px;
+}
 
+
+
+.spacer2 {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
 
 
 @media (max-width: 680px) {
   .my-img {
-    width: 150px;
+    width: 180px;
   }
 
   .img1 {
@@ -210,26 +232,28 @@ h2, h3 {
 .logo {
     display: flex;
     justify-content: flex-start;
-    padding-top: 8px;
+    padding-top: 12px;
     padding-right: 20px;
   }
 
  h1 {
-    font-size: 18pt;
+    font-size: 28pt;
     padding-top: 0px;
   }
 
  h2, h3 {
-    font-size: 18pt;
+    font-size: 24pt;
+
     
   }
 
 p {
-    font-size: 9pt;
+    font-size: 12pt;
   }
 
 .nav {
-    padding: 10px 15px;
+    padding: 16px 20px;
+    font-size: 10pt;
 }
 
 .nav-links {
@@ -238,6 +262,18 @@ p {
     gap: 8px;
 }
 .fa-instagram, .fa-linkedin-in, .fa-facebook-f {
-    font-size: 15pt;
+    font-size: 20pt;
  }
+ 
+.spacer2 {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 10px;
+ }
+
+ .img-sizing {
+    max-width: 140px;
+    height: auto;
+  }
 }
